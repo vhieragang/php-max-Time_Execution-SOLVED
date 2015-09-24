@@ -1,0 +1,25 @@
+My problem is Solved. i was using the wamp server and i did the following
+
+I browse to C:\wamp\bin\apache\apache2.2.8\bin\php.ini
+
+Find:
+post_max_size = 8M
+upload_max_filesize = 2M
+max_execution_time = 30
+max_input_time = 60
+memory_limit = 8M
+
+Change to:
+post_max_size = 750M
+upload_max_filesize = 750M
+max_execution_time = 5000
+max_input_time = 5000
+memory_limit = 1000M
+
+Then restart wamp to take effect
+
+After that it intalled successfully.
+
+thank you again for giving me the clue "it is not a jSeblod problem, and for giving the variable (max_execution_time)" 
+
+Link url (http://www.seblod.com/v2/forum/23-General-Discussion/14847-SOLVED-Fatal-error-Maximum-execution-time-of-30-seconds-exceeded-in-CwampwwwSCUKlibrariesjoomlafilesystemarchivezipphp-on-line-330.html);
